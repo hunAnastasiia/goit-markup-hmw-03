@@ -1,0 +1,180 @@
+:root {
+--dark:#2E2F42;
+--btn-blue:#4D5AE5;
+--btn-hover:#404BBF;
+--text-dark:#434455;
+--white:#FFFFFF;
+--text-white:#F4F4FD;
+--border-light:#E7E9FC;
+--text-line-height: 1.5;
+--title-letter-spasing:0.02em;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.list{
+    list-style: none;
+    background-color: #FFFFFF;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.btn {
+    font-family: inherit;
+    line-height: var(--text-line-height);
+   background-color: var(--btn-blue);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.big-title{
+    line-height: var(--text-line-height);
+    letter-spacing: var(--title-letter-spasing);
+    font-style: normal;
+}
+
+address {
+    font-style: normal;
+}
+
+/* ------------------------HEADER------------------------ */
+
+.header-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.header-logo-span  {
+    color: #2e2f42;
+}
+
+.header-list {
+   background-color:#FFFFFF;
+}
+.nav{
+    font-weight: 500;
+    color: var(--dark);
+}
+
+.nav:is(:hover,:focus) {
+    color: var(--btn-hover);
+}
+ 
+.header-adress-link{
+    color: var(--text-dark);
+    font-style: normal;
+} 
+
+.header-adress-link:is(:hover, :focus){
+    color: var(--btn-hover);
+}
+
+
+/* --------------HERO---------------- */
+
+
+.hero {
+    background-color: var(--dark);
+}
+
+.hero-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: var(--title-letter-spasing);
+    color: var(--white);
+}
+
+.btn-order {
+    color: var(--white);
+    letter-spacing: 0.04em;
+}
+.btn-order:is(:hover, :focus){
+    background: var(--btn-hover);
+}
+
+
+/* --------------------ABOUT------------- */
+
+
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text{
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* ----------------TEAM--------------------- */
+
+.team{
+    background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+/* -------------GALLERY------------- */
+
+.gallery{
+    background-color: #FFFFFF;
+}
+
+.header-second{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing:var(--title-letter-spasing);
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+
+
+/* -------------FOOTER--------------- */
+.footer-logo-span {
+    color: #f4f4fd;
+}
+.text-footer{
+    color: var(--text-white);
+}
+
+
+/* -----------------BTN----------- */
+
+.btn-profile{ 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: #F4F4FD;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+
+.btn:is(:hover, :focus){
+    background-color: #404BBF;
+    color: #FFFFFF; 
+}
+
