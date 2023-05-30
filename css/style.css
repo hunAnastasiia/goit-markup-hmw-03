@@ -96,11 +96,22 @@ address {
     text-align: center;
     letter-spacing: var(--title-letter-spasing);
     color: var(--white);
+   padding-bottom: 48px;
+    padding-top: 188px;
 }
 
 .btn-order {
-    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     letter-spacing: 0.04em;
+    color: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 148px;
 }
 .btn-order:is(:hover, :focus){
     background: var(--btn-hover);
