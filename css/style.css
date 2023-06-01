@@ -182,6 +182,8 @@ address {
     line-height: 1.5;
     color: #4d5ae5;
     cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .btn:is(:hover, :focus){
