@@ -46,11 +46,26 @@ address {
     font-style: normal;
 }
 
-/* ------------------------HEADER------------------------ */
-header{
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+img {
+    display: block;
 }
+
+/* ------------------------HEADER------------------------ */
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-header {
+    display: flex;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -59,23 +74,41 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
+
 .header-logo-span  {
     color: #2e2f42;
 }
 
-.header-list {
-   background-color:#FFFFFF;
-}
 .nav{
     font-weight: 500;
     color: var(--dark);
+    display: flex;
+    align-items: center;
 }
 
 .nav:is(:hover,:focus) {
     color: var(--btn-hover);
 }
- 
+
+.header-list {
+   background-color:#FFFFFF;
+    display: flex;
+    gap: 40px;
+}
+
+.header-link {
+    padding: 24px 0;
+}
+
+.header-item-last{
+    margin: 0;
+}
+.header-adress{
+    display: flex;
+    gap: 40px;
+}
 .header-adress-link{
     color: var(--text-dark);
     font-style: normal;
@@ -85,6 +118,9 @@ header{
     color: var(--btn-hover);
 }
 
+.adress-link-last{
+    margin-right: 0;
+}
 
 /* --------------HERO---------------- */
 
