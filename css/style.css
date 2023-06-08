@@ -47,7 +47,10 @@ address {
 }
 
 /* ------------------------HEADER------------------------ */
-
+header{
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -88,6 +91,8 @@ address {
 
 .hero {
     background-color: var(--dark);
+    padding-top: 188px;
+    padding-bottom: 148px;
 }
 
 .hero-title{
@@ -96,8 +101,8 @@ address {
     text-align: center;
     letter-spacing: var(--title-letter-spasing);
     color: var(--white);
-   padding-bottom: 48px;
-    padding-top: 188px;
+    margin-bottom: 48px;
+    
 }
 
 .btn-order {
@@ -111,7 +116,7 @@ address {
     height: 56px;
     margin-left: 50%;
     margin-right: 50%;
-    margin-bottom: 148px;
+    
 }
 .btn-order:is(:hover, :focus){
     background: var(--btn-hover);
@@ -120,7 +125,10 @@ address {
 
 /* --------------------ABOUT------------- */
 
-
+.about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .title{
     font-weight: 500;
     font-size: 20px;
@@ -140,6 +148,8 @@ address {
 
 .team{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-item {
@@ -152,6 +162,13 @@ address {
     background-color: #FFFFFF;
 }
 
+.galerry-list-descrp{
+    padding-bottom: 120px;
+}
+.header-second {
+    margin-bottom: 72px;
+}
+
 .header-second{
     font-size: 36px;
     line-height: 1.11;
@@ -159,6 +176,9 @@ address {
     letter-spacing:var(--title-letter-spasing);
     text-transform: capitalize;
     color: var(--dark);
+}
+.galerry-item{
+    margin-right: 24px;
 }
 
 
@@ -170,6 +190,11 @@ address {
 .text-footer{
     color: var(--text-white);
 }
+footer {
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+
+}
 
 
 /* -----------------BTN----------- */
@@ -177,6 +202,7 @@ address {
 .btn-profile{ 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
     background-color: #F4F4FD;
     letter-spacing: 0.04em;
     line-height: 1.5;
@@ -191,3 +217,15 @@ address {
     color: #FFFFFF; 
 }
 
+.btn-list{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.btn-portfolio-list{
+    margin-bottom: 72px;
+    margin-right: 24px;
+}
+.btn-profile{
+    padding: 12px 24px 12px 24px;
+}
