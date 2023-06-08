@@ -84,8 +84,11 @@ img {
 .nav{
     font-weight: 500;
     color: var(--dark);
+    
+}
+.header-nav{
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .nav:is(:hover,:focus) {
@@ -102,10 +105,11 @@ img {
     padding: 24px 0;
 }
 
-.header-item-last{
+.header-item:last-child {
     margin: 0;
 }
-.header-adress{
+
+.adress-list{
     display: flex;
     gap: 40px;
 }
