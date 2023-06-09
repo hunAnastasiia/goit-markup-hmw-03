@@ -18,6 +18,8 @@ body {
 .list{
     list-style: none;
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
 .link{
