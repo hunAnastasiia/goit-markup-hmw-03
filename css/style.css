@@ -282,17 +282,21 @@ img {
 }
 
 /* -------------FOOTER--------------- */
+
+.footer {
+    padding: 100px 0;
+}
 .footer-logo-span {
     color: #f4f4fd;
 }
 .text-footer{
     color: var(--text-white);
+    max-width: 264px;
 }
-footer {
-    padding-top: 101.5px;
-    padding-bottom: 100px;
-
-}
+ .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+ }
 
 
 /* -----------------BTN----------- */
