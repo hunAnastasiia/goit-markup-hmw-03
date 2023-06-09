@@ -91,6 +91,9 @@ img {
     align-items: center;    
 }
 
+.header-nav-prtf {
+    padding: 24px 0;
+}
 .nav:is(:hover,:focus) {
     color: var(--btn-hover);
 }
