@@ -213,6 +213,10 @@ img {
     padding-bottom: 120px;
 }
 
+.img-team{
+    width: calc((100% - 72px) / 4);
+}
+
 .title-team {
     margin-bottom: 8px;
     text-align: center;
@@ -225,7 +229,7 @@ img {
 
 .team-item {
     
-    width: calc((100% - 72px) / 4);
+   
     border-radius: 0px 0px 4px 4px;
 
 }
