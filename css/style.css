@@ -184,6 +184,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 
 .text{
@@ -191,6 +192,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .about-item {
     width: calc((100% - 72px) / 4);
 }
@@ -198,9 +200,9 @@ img {
     margin-right: 0;
 }
 
-.visually-hidden{
-position: fixed;
-transform: scale(0);
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
 }
 
 
