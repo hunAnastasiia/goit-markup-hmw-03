@@ -172,18 +172,30 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+
+.list-about{
+    display: flex;
+    gap: 24px;
+}
 .title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .text{
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.item-abt {
+    width: calc((100% - 72px) / 4);
+}
+.about-item:last-of-type {
+    margin-right: 0;
 }
 
 
