@@ -193,7 +193,7 @@ img {
 }
 
 .about-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .about-item:last-of-type {
     margin-right: 0;
@@ -213,6 +213,7 @@ img {
     padding-bottom: 120px;
 }
 
+
 .team-item {
     background-color: #FFFFFF;
 }
@@ -223,6 +224,14 @@ img {
     background-color: #FFFFFF;
 }
 
+.header-galleryList {
+    margin-bottom: 72px;
+}
+
+.list-galleryList{
+    display: flex;
+    gap: 24px;
+}
 .galerry-list-descrp{
     padding-bottom: 120px;
 }
@@ -239,10 +248,13 @@ img {
     color: var(--dark);
 }
 .galerry-item{
-    margin-right: 24px;
+    width: calc((100% - 48px) / 3);
+
 }
 
-
+.galerry-item:last-of-type {
+    margin-right: 0;
+}
 
 /* -------------FOOTER--------------- */
 .footer-logo-span {
