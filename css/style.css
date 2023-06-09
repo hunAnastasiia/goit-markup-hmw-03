@@ -198,6 +198,11 @@ img {
     margin-right: 0;
 }
 
+.visually-hidden{
+position: fixed;
+transform: scale(0);
+}
+
 
 /* ----------------TEAM--------------------- */
 
