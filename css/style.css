@@ -224,6 +224,7 @@ img {
     clip-path: inset(50%);
     margin: -1px;
     display: none;
+    visibility: hidden;
 }
 
 
