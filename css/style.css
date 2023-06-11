@@ -204,6 +204,7 @@ img {
 .visually-hidden {
     position: fixed;
     transform: scale(0);
+    visibility: hidden;
 }
 
 
